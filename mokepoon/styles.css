@@ -1,0 +1,67 @@
+* {
+    background-color: bisque;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+        width: 216px;
+        padding: 3rem;
+        background-color: blanchedalmond   ;
+    
+}
+
+#seleccionar-mascota{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 15px;
+}
+
+.tarjeta-de-mokepoon{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid midnightblue;
+}
+
+input{
+    display: none;
+}
+#boton-mascotas {
+    width: 93px;
+    height: 44px;
+    margin: 10px;
+    border: 3px solid deepskyblue;
+    color: violet;
+    background: blueviolet;
+}
+
+#seleccionar-ataque{
+    display: flex;
+    background: blue;
+    padding: 3rem;
+    width: 19rem;
+    height: 20rem;
+    margin: auto;
+}
+
+#boton-fuego, #boton-agua, #boton-tierra{
+    height: 100px;
+    width: 100px;
+    background: yellow;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid midnightblue;
+}
